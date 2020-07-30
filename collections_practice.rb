@@ -33,7 +33,7 @@ def swap_elements(array)
   new_arr = []
       new_arr = array[0] + array[2] + array[1].split
       return new_arr.
-    end
+    
     end
   end
 end
