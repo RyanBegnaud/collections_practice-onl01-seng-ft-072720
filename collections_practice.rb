@@ -12,3 +12,5 @@ def sort_array_desc(integers)
       1
     elsif a < b
       -1
+  end
+end
