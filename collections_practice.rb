@@ -56,7 +56,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect{|element, index| }
-  if index == 1
+  if array[index] == 1
   
 else 
   array[0].join("s")
