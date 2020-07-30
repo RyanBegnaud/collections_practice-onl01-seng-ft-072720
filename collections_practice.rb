@@ -55,15 +55,17 @@ def sum_array(array)
 end
 
 def add_s(array)
+  new_array = []
   array.each_with_index.collect do |element, index| 
   if array[1] == element
      element
   
 else 
-  array[0] + "s"
-  array[2] + "s"
-  array[3] + "s"
+  new_array << array[0] + "s"
+  new_array << array[2] + "s"
+  new_array << array[3] + "s"
 end
+return new_array
 end
 end
 
