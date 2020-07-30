@@ -31,8 +31,6 @@ end
 
 def swap_elements(array)
   new_arr = []
-  array.sort do |a, b|
-    if array[1] == a && array[2] == b  
       new_arr = array[0] + array[2] + array[1].split
       return new_arr.
     end
