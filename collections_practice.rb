@@ -33,7 +33,8 @@ def swap_elements(array)
   new_arr = []
   array.sort do |a, b|
     if array[1] == a && array[2] == b  
-      return "#{array[0]},  #{array[2]}, #{array[1]}."
+      new_arr = "#{array[0]},  #{array[2]}, #{array[1]}."
+      return new_arr
     
     end
   end
