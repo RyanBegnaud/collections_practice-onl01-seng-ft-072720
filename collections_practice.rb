@@ -32,7 +32,7 @@ end
 def swap_elements(array)
   array.sort do |a, b|
     if array[1] == a && array[2] == b  
-      return [1,2]
+      return array[0] + array[2] + array[1]
     
     end
   end
