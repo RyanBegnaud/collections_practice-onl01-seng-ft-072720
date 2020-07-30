@@ -35,3 +35,4 @@ end
 
 def reverse_array(array)
   array.map {|integer| integer.reverse}
+end
