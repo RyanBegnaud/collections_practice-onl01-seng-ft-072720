@@ -61,6 +61,8 @@ def add_s(array)
   
 else 
   array[0] + "s"
+  array[2] + "s"
+  array[3] + "s"
 end
 end
 end
