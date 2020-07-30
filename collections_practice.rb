@@ -59,7 +59,7 @@ def add_s(array)
   if array[1] == element
   
 else 
-  array[0].join("s")
+  array[0] + "s"
 end
 end
 end
