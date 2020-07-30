@@ -1,3 +1,4 @@
+require "pry"
 def sort_array_asc(integers)
   integers.sort do |a, b|
     a<=>b
@@ -29,9 +30,10 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort.each_with_index |number, index|
+  array.sort do |a, b|
     if array[1] == a && array[2] == b  
       -1
+    binding.pry
     end
   end
 end
