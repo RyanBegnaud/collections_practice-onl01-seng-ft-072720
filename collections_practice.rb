@@ -62,6 +62,7 @@ def add_s(array)
   
 else 
   new_array << array[0] + "s"
+  new_array << array[1]
   new_array << array[2] + "s"
   new_array << array[3] + "s"
 end
