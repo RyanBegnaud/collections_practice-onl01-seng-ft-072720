@@ -50,4 +50,6 @@ def find_a(array)
   array.find_all {|words| words.start_with?("a")}
 end
 
-def sum_array
+def sum_array(array)
+  array.inject
+  
