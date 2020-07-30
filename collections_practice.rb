@@ -55,6 +55,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  [1,2].each_with_index.collect{|element, index| }
+  array.each_with_index.collect{|element, index| }
+  if index == 1
+  
+else 
+  array[0].join("s")
 end
   
