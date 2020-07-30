@@ -61,4 +61,5 @@ def add_s(array)
 else 
   array[0].join("s")
 end
-  
+end
+
